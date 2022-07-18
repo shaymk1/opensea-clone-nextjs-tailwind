@@ -1,0 +1,13 @@
+web3 dependencies:
+
+//npm install --save-dev @nomiclabs/hardhat-waffle 'ethereum-waffle@^3.0.0' @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
+
+//npm install --save-dev @ethereum-waffle/chai
+
+// npm i web3modal
+
+// npm i @openzeppelin/contracts
+
+// npm i ipfs-http-client
+
+// npm i axios
