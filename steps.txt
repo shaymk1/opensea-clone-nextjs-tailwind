@@ -1,6 +1,10 @@
 web3 dependencies:
 
-//npm install --save-dev hardhat and npx hardhat
+//npm install --save-dev hardhat 
+
+// delete the readme file
+
+//and npx hardhat
 
 //npm install --save-dev @nomiclabs/hardhat-waffle 'ethereum-waffle@^3.0.0' @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
 
@@ -12,7 +16,7 @@ web3 dependencies:
 
 // npm i @openzeppelin/contracts
 
-// npm i ipfs-http-client
+// npm i ipfs-http-client@50.1.2
 
 // npm i axios
 
