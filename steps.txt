@@ -1,6 +1,10 @@
 web3 dependencies:
 
+//npm install --save-dev hardhat and npx hardhat
+
 //npm install --save-dev @nomiclabs/hardhat-waffle 'ethereum-waffle@^3.0.0' @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
+
+//npm i chai
 
 //npm install --save-dev @ethereum-waffle/chai
 
@@ -11,3 +15,20 @@ web3 dependencies:
 // npm i ipfs-http-client
 
 // npm i axios
+
+then :
+
+// hardhat: 
+  //npx hardhat
+
+<<<<<<< infura>>>>>>
+  //create a project and select polygon
+  // you must give them your credit card details
+  // get the polygon/mumbai testnet endpoint:
+    //https://polygon-mumbai.infura.io/v3/536442d6e6114afebcc5cf916ee10607
+
+
+<<<<<<<<metamask>>>>
+
+//get your private key, i am using polygon-1 account:
+// 4ec23aedc4dbbacb9d2da7a3dfba104e2abe11bcd866affb5a2622eac248e90d
