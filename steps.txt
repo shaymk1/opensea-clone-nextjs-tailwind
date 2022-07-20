@@ -53,3 +53,28 @@ then :
 // <<<<<<<test>>>>>
     //write test in the test folder
     //run npx hardhat test>>>> test will pass or fail but it will create cache and artifacts
+
+
+.........................>>>>>>>><<<<<<<<<<<<<<<<<.........
+>>>>>>>> front end>>>>>>>>>
+
+//create a components folder
+//create navbar, footer and layout components
+// import navbar and footer into layout components
+//import layout into app.js and let it wrap the content there
+............>>>index.js<<<<<<<...
+// go to index.js and import :
+    // {ethers } from "ethers"
+    //useeffect and usestate from react
+    //import axios from axios
+    //import Web3Modal from "web3modal"
+    //import { nftaddress, nftmarketaddress } from "../config";
+
+
+............>>>config.js<<<<<<<...
+
+//create a config.js file in the root and import it to index.js and write this:
+   //export const nftaddress =""
+export const nftmarketaddress = "";
+
+

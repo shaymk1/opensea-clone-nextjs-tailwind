@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Comfortaa&family=Marck+Script&family=Montserrat:ital,wght@0,400;1,600&family=Poppins&family=Yellowtail&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+background-color:#8e9aaf;
+}
 
