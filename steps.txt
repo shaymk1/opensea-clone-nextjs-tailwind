@@ -4,7 +4,7 @@ web3 dependencies:
 
 // delete the readme file
 
-//and npx hardhat
+//and npx hardhat and choose javascript
 
 //npm install --save-dev @nomiclabs/hardhat-waffle 'ethereum-waffle@^3.0.0' @nomiclabs/hardhat-ethers 'ethers@^5.0.0'
 
@@ -20,19 +20,36 @@ web3 dependencies:
 
 // npm i axios
 
+//npm i -D dotenv
+
 then :
 
 // hardhat: 
-  //npx hardhat
+  //npx hardhat >>>>will create contracts folder, scripts folder and test folder
+
+  //write some network configurations:
+    //require("dotenv").config(); >>>in the beginning
+  //stuff i have removed from the previous config which did not work for me:
+        ////url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
+        /////const fs =require("fs");
+        //const PRIVATE_KEY = fs.readFileSync(".secret").toString();
+         //const projectId = "536442d6e6114afebcc5cf916ee10607";
 
 <<<<<<< infura>>>>>>
   //create a project and select polygon
   // you must give them your credit card details
   // get the polygon/mumbai testnet endpoint:
-    //https://polygon-mumbai.infura.io/v3/536442d6e6114afebcc5cf916ee10607
+    //https://polygon-mumbai.infura.io/v3/projectId
 
 
 <<<<<<<<metamask>>>>
 
 //get your private key, i am using polygon-1 account:
-// 4ec23aedc4dbbacb9d2da7a3dfba104e2abe11bcd866affb5a2622eac248e90d
+// 
+
+// <<<<<<<contracts>>>>>
+/    //write contracts NFT.sol and NFTMarket.sol
+
+// <<<<<<<test>>>>>
+    //write test in the test folder
+    //run npx hardhat test>>>> test will pass or fail but it will create cache and artifacts

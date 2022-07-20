@@ -4,9 +4,7 @@ require("@nomiclabs/hardhat-ethers");
 
 require("dotenv").config();
 
-//const fs =require("fs");
-//const PRIVATE_KEY = fs.readFileSync(".secret").toString();
-//const projectId = "536442d6e6114afebcc5cf916ee10607";
+
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
@@ -16,7 +14,7 @@ module.exports = {
 		},
 
 		mumbai: {
-			//url: `https://polygon-mumbai.infura.io/v3/${projectId}`,
+			
 			url: process.env.MUMBAI_RPC_URL,
 			accounts: [process.env.PRIVATE_KEY],
 		},
