@@ -70,11 +70,33 @@ then :
     //import Web3Modal from "web3modal"
     //import { nftaddress, nftmarketaddress } from "../config";
 
+    //so that we can access to the abi's of the contracts
+       //import NFT from "../artifacts/contracts/NFT.sol/NFT.json"
+       //import NFTMarket from "../artifacts/contracts/NFTMarket.sol/NFTMarket.json"
+
+
+......note....
+//i have changed one function name from fetchMarketItems to fetchItemsCreated here:
+//returns array of unsold items
+		const data = await marketContract.fetchItemsCreated;
+
 
 ............>>>config.js<<<<<<<...
 
 //create a config.js file in the root and import it to index.js and write this:
    //export const nftaddress =""
 export const nftmarketaddress = "";
+
+
+
+deployment:
+first run: npx hardhat node>>>>>>will give you adresses with 1000 eth
+//npx hardhat run scripts/deploy.js --network localhost:
+  //NFTMarket deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+   //NFT deployed to: 0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+
+   // take this deployment addresses and put them in the config.js file
+
+
 
 

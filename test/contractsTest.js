@@ -40,7 +40,7 @@ describe("NFTMarket", function () {
 			.connect(buyerAddress)
 			.createMarketSale(nftContractAddress, 1, { value: auctionPrice });
 
-		//fetch market items fetchMarketItems
+		//fetch market items fetchItemsCreated
 		let items = await market.fetchItemsCreated();
 
 		items = await Promise.all(
