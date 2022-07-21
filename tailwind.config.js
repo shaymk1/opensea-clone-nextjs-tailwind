@@ -11,6 +11,7 @@ module.exports = {
 				poppins: "'poppins' , 'sans-serif'",
 				comfortaa: "'comfortaa', 'script'",
 				yellowtail: "'yellowtail', 'script'",
+				humane: "'humane', 'sans-serif'",
 			},
 		},
 	},

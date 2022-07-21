@@ -14,7 +14,7 @@ export const Navbar = () => {
 		<>
 			<nav className="flex items-center flex-wrap bg-[#8e9aaf] p-3 border border-b-[#967aa1] ">
 				<Link href="/">
-					<a className="inline-flex items-center p-2 mr-4 text-3xl font-extrabold text-[#d0f4de] uppercase font-montserrat hover:text-white">
+					<a className="inline-flex items-center p-2 mr-2 ml-1 text-2xl font-extrabold text-[#d0f4de] uppercase font-montserrat hover:text-white">
 						<span className="text-3xl font-bold uppercase tracking-wide font-yellowtail mx-2 text-[#a9def9] hover:text-white">
 							Cool
 						</span>
