@@ -1,6 +1,8 @@
 web3 dependencies:
+//npm install react-router
 
 //npm install --save-dev hardhat 
+//npx hardhat>>>>> choose javascript
 
 // delete the readme file
 

@@ -22,7 +22,8 @@ export const Navbar = () => {
 					</a>
 				</Link>
 				<button
-					className=" inline-flex p-3 hover:bg-[#cbc0d3] rounded lg:hidden text-white ml-auto hover:text-white outline-none font-montserrat"
+					className=" inline-flex p-3 
+					bg-[#cb97ef] hover:bg-[#ac59e7] rounded lg:hidden text-white ml-auto  outline-none font-montserrat"
 					onClick={handleClick}>
 					<svg
 						className="w-6 h-6"
