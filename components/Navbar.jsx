@@ -50,17 +50,17 @@ export const Navbar = () => {
 								Home
 							</a>
 						</Link>
-						<Link href="/">
+						<Link href="/create-item">
 							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#cbc0d3] hover:text-white">
 								Sell NFT
 							</a>
 						</Link>
-						<Link href="/">
+						<Link href="/my-assets">
 							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#cbc0d3] hover:text-white">
 								My NFTs
 							</a>
 						</Link>
-						<Link href="/">
+						<Link href="/creator-dashboard">
 							<a className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-[#cbc0d3] hover:text-white">
 								Dashboard
 							</a>
